@@ -1,0 +1,54 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  flex-shrink: 0;
+  max-width: 100%;
+  max-height: 100%;
+  border: 0;
+}
+
+svg {
+  display: block;
+  flex-shrink: 0;
+
+  & * {
+    transition: 150ms;
+  }
+}
+
+a, button {
+  text-decoration: none;
+  outline: none;
+
+  &:hover, &:focus, &:active {
+    outline: none;
+  }
+}
+
+.text-fwn {
+  font-weight: normal;
+}
+
+.text-strong-i {
+  font-family: $f-d;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 135%;
+  color: #453A3A;
+}

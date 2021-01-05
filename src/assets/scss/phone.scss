@@ -1,0 +1,12 @@
+.phone {
+  white-space: nowrap;
+  text-decoration: none;
+  color: #D8124A;
+  outline: none;
+  font-size: 18px;
+
+  &:hover, &:focus, &:active {
+    text-decoration: underline;
+    outline: none;
+  }
+}

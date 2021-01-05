@@ -1,0 +1,21 @@
+.addition {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #333333;
+  min-height: 82px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+  font-family: $f-m;
+  padding: 22px 30px;
+
+  & span {
+    display: block;
+    flex-shrink: 0;
+  }
+}
