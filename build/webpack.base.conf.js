@@ -8,7 +8,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 // see more: https://github.com/vedees/webpack-template/blob/master/README.md#main-const
 const PATHS = {
   src: path.join(__dirname, '../src'),
-  dist: path.join(__dirname, '../dist'),
+  dist: path.join(__dirname, '../new_pizza_14.01.21'),
   assets: 'assets/'
 };
 
