@@ -1,0 +1,34 @@
+.discount {
+  flex-shrink: 0;
+  text-align: center;
+  margin: 34px 42px 0;
+
+  &__title {
+    font-family: $f-m;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  &__descr {
+    font-family: $f-m;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    display: inline-flex;
+    align-items: center;
+    height: 34px;
+    background: #D8124A;
+    border-radius: 7px;
+    padding: 4px 10px 0;
+  }
+}
