@@ -19,7 +19,7 @@ initCarousel(
         loop: true,
         speed: 600,
         autoplay: {
-            delay: 4000000,
+            delay: 4000,
         },
         pagination: {
             el: '.pagination-bullets-box',

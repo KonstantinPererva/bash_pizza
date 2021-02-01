@@ -3,6 +3,14 @@
   text-align: center;
   margin: 34px 42px 0;
 
+  @media (max-width: 1024px) {
+    margin: 20px 42px 0;
+  }
+
+  @media (max-width: 767px) {
+    margin: 15px 0 0;
+  }
+
   &__title {
     font-family: $f-m;
     font-style: normal;
@@ -12,6 +20,14 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+
+    @media (max-width: 1024px) {
+      font-size: 64px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 54px;
+    }
   }
 
   &__descr {
@@ -23,12 +39,19 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-
     display: inline-flex;
     align-items: center;
     height: 34px;
     background: #D8124A;
     border-radius: 7px;
     padding: 4px 10px 0;
+
+    @media (max-width: 1024px) {
+      font-size: 18px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
   }
 }
