@@ -1,0 +1,12 @@
+.footer {
+  background: url(/assets/img/bg_3.png) repeat;
+  padding: 45px 15px;
+
+  @media (max-width: 992px) {
+    padding: 65px 15px;
+  }
+  
+  &__content {
+    text-align: center;
+  }
+}

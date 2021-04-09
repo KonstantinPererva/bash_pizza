@@ -1,20 +1,30 @@
+@import "../css/style.css";
+
 @import "utils/vars";
 @import "utils/mixins";
-@import "utils/fonts";
-@import "utils/base";
 
 
-@import "header";
-@import "logo";
-@import "banner";
-@import "addition";
-@import "phone";
-@import "section";
-@import "page-title";
-@import "catalog";
-@import "catalog-list";
-@import "card-product";
-@import "about-content";
-@import "address";
-@import "discount";
-@import "main-slider";
+
+//@import "utils/fonts";
+//@import "utils/base";
+//
+//
+//@import "header";
+//@import "logo";
+//@import "banner";
+//@import "addition";
+//@import "phone";
+//@import "section";
+//@import "page-title";
+//@import "catalog";
+//@import "catalog-list";
+//@import "card-product";
+//@import "about-content";
+//@import "address";
+//@import "discount";
+//@import "main-slider";
+
+
+@import "appended-below";
+@import "footer";
+@import "soc-net-box";
