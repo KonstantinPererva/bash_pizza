@@ -9,7 +9,7 @@ node_modules
 
 # Dist & test
 test
-new_pizza_14.01.21
+dist
 
 # BD, logs
 *.log

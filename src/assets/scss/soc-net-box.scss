@@ -3,6 +3,12 @@
     display: flex;
     justify-content: center;
     margin: 0 0 25px;
+
+    & .button-link {
+      &:hover {
+        animation: bim 300ms linear forwards;
+      }
+    }
   }
 
   &__title {
@@ -77,5 +83,25 @@
     width: 20px;
     height: 20px;
     margin-right: -10px;
+  }
+}
+
+.button-link {
+  user-select: none;
+  outline: none;
+  border: 0;
+
+  &:hover, &:focus, &:active {
+    outline: none;
+    border: 0;
+  }
+}
+
+@keyframes bim {
+  0%, 100% {
+    transform: scale3d(1,1,1);
+  }
+  50% {
+    transform: scale3d(1.1,1.1,1.1);
   }
 }

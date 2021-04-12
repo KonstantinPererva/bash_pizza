@@ -2,8 +2,8 @@
   text-align: center;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 19px;
+  font-size: 24px;
+  line-height: 125%;
   text-transform: uppercase;
   color: #333333;
   min-height: 82px;
@@ -14,8 +14,27 @@
   font-family: $f-m;
   padding: 22px 30px;
 
+  & h2 {
+    font-size: 24px;
+    line-height: 125%;
+    margin: 0;
+
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
+  }
+
   & span {
     display: block;
     flex-shrink: 0;
+  }
+
+  & .phone {
+    display: block;
+    font-size: 20px;
+
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
   }
 }
